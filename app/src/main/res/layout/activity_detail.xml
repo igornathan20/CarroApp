@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_carro_detail.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/carroImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/brasilia"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
+
+    <!-- Modelo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modelo"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/modeloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vai"
+        android:textSize="18sp"
+        android:paddingTop="4dp" />
+
+    <!-- Marca -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marca"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/marcaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vai"
+        android:textSize="18sp"
+        android:paddingTop="4dp" />
+
+    <!-- Torque -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Torque"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/torcTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vai"
+        android:textSize="18sp"
+        android:paddingTop="4dp" />
+
+    <!-- Potência -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Potência"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/potenciaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vai"
+        android:textSize="18sp"
+        android:paddingTop="4dp" />
+
+    <!-- Consumo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consumo"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/consumoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vai"
+        android:textSize="18sp"
+        android:paddingTop="4dp" />
+
+    <!-- Tabela FIPE -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tabela FIPE"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/tabelaFipeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vai"
+        android:textSize="18sp"
+        android:paddingTop="4dp" />
+
+</LinearLayout>
